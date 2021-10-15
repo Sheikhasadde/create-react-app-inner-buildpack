@@ -44,7 +44,7 @@ else
   },
    "headers": {
     "/**": {
-      "Content-Security-Policy": "default-src 'self'; http; https; frame-ancestors 'none';",
+      "Content-Security-Policy": "http; https; frame-ancestors 'none';",
       "Referrer-Policy": "no-referrer, strict-origin-when-cross-origin",
       "Strict-Transport-Security": "max-age=63072000; includeSubDomains env=HTTPS",
       "X-Content-Type-Options": "nosniff",
