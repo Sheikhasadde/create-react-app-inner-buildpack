@@ -46,7 +46,7 @@ else
     "/**": {
       "Content-Security-Policy": "default-src 'self'; script-src 'self'; img-src 'self'; font-src 'self' https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com; frame-ancestors 'none';",
       "Referrer-Policy": "no-referrer, strict-origin-when-cross-origin",
-      "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+      "Strict-Transport-Security": "max-age=63072000; includeSubDomains env=HTTPS",
       "X-Content-Type-Options": "nosniff",
       "X-Frame-Options": "DENY",
       "X-XSS-Protection": "1; mode=block"
