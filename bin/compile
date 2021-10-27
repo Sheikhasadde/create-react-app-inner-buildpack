@@ -44,11 +44,7 @@ else
   },
    "headers": {
     "/**": {
-      "Content-Security-Policy": "frame-ancestors 'none'; 
-      default-src 'self'; 
-      script-src 'sha256-tR0DbG0+8gncOEof/sIQVqNG3zpo12+aFOJ7OieNvdE=' 'sha256-u67MAmE3pqDxyOUSxgwDBQlNX2EkMnl5u0Ciuacm60g='; 
-      style-src 'https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' 'https://use.fontawesome.com/releases/v5.3.1/css/all.css' 'https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' 'https://fonts.googleapis.com/css2?family=Nunito&display=swap' 'https://fonts.googleapis.com';
-      font-src 'https://fonts.gstatic.com';",
+      "Content-Security-Policy": "frame-ancestors 'none';",
       "Referrer-Policy": "no-referrer, strict-origin-when-cross-origin",
       "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
       "X-Content-Type-Options": "nosniff",
