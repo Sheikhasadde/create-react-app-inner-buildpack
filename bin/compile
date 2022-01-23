@@ -44,11 +44,11 @@ else
   },
    "headers": {
     "/**": {
-      "Content-Security-Policy": "frame-ancestors 'self' https://switcheroo.ie",
+      "Content-Security-Policy": "frame-ancestors 'none'",
       "Referrer-Policy": "no-referrer, strict-origin-when-cross-origin",
       "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
       "X-Content-Type-Options": "nosniff",
-      "X-Frame-Options": "allow-from, https://switcheroo.ie",
+      "X-Frame-Options": "DENY",
       "X-XSS-Protection": "1; mode=block",
       "Permissions-Policy": "cross-origin-isolated=()"
     }
