@@ -51,7 +51,8 @@ else
       "X-Content-Type-Options": "nosniff",
       "X-Frame-Options": "DENY",
       "X-XSS-Protection": "1; mode=block",
-      "Permissions-Policy": "cross-origin-isolated=()"
+      "Permissions-Policy": "cross-origin-isolated=()",
+      "X-Powered-By":"UNKNOWN",
     }
   }
 }
