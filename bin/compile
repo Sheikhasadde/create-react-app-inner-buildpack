@@ -52,7 +52,8 @@ else
       "X-Frame-Options": "DENY",
       "X-XSS-Protection": "1; mode=block",
       "Permissions-Policy": "cross-origin-isolated=()",
-      "X-Powered-By":"unknown"
+      "X-Powered-By":"unknown",
+      "Server":"ASP.NET"
     }
   }
 }
